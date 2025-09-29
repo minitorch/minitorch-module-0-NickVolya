@@ -126,7 +126,7 @@ def zipWith(
 
 
 def reduce(func: Callable[[float, float], float], iterable: Iterable[float]) -> float:
-    result = 0
+    result = 0.0
     for elem in iterable:
         if not result:
             result = elem
